@@ -1,0 +1,38 @@
+.banner{
+    width: 100%;
+}
+.banner img{
+    object-fit: cover;
+    width: 100%;
+}
+.carousel2{
+    margin: 5rem 0;
+}
+.carousel2 h2{
+    font-size: 2rem;
+    color: #3e4152;
+    padding-left:2rem ;
+    margin: 1rem 0;
+}
+.imgitem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.imgitem img{
+    width: 20%;
+    display: flex;
+}
+.sbc img{
+    width: 20%;
+    height: 10%;
+}
+@media (max-width:824px){
+    .carousel2 h2{
+        font-size: 1rem;
+        padding-left:0;
+    }
+    .carousel2{
+        margin:1rem 0;
+    }
+}
